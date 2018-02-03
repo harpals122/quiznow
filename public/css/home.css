@@ -111,6 +111,9 @@ body  {
     padding: 2px ;
     box-shadow: 1px 1px 1px #E89F65;
   }
+  /*--------------------------------------
+ users -> contents -> quiz-> main_quiz heading
+-----------------------------------------*/
 
   #main_quiz h1  {
     color: #B94629;
