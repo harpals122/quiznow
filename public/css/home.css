@@ -1,6 +1,5 @@
 
-@media screen and (min-width: 1024px)
-{
+@media screen and (min-width: 768px){
 
 /*-----------
   Main body  
@@ -98,7 +97,7 @@ body  {
 /*---------------------Quiz Style------------------------------*/ 
 
 /*--------------------------------------
- users -> contents -> quiz-> main_quiz 
+ users -> contents -> quiz-> main_quiz div
 -----------------------------------------*/
 
   #main_quiz  {
@@ -111,7 +110,7 @@ body  {
     padding: 2px ;
     box-shadow: 1px 1px 1px #E89F65;
   }
-  /*--------------------------------------
+/*--------------------------------------
  users -> contents -> quiz-> main_quiz heading
 -----------------------------------------*/
 
@@ -123,7 +122,7 @@ body  {
     text-transform: none;   
     text-align: center;
   }
-  /*--------------------------------------
+/*--------------------------------------
  users -> contents -> quiz-> main_quiz input and buttons
 -----------------------------------------*/
    #main_quiz  input , #main_quiz  button
@@ -135,7 +134,8 @@ body  {
 
      margin : 15px 0px 20px 20px;
    }
-  /*--------------------------------------
+
+/*--------------------------------------
  users -> contents -> quiz-> main_quiz buttons
 -----------------------------------------*/
    #main_quiz #quizcontrolbutton button
@@ -144,6 +144,11 @@ body  {
     margin : 20px 0px 20px 5px;
    }
 
+/*---------------------Primary tutorials Style------------------------------*/ 
+
+/*--------------------------------------
+ users -> contents -> primary tutorials-> main div
+-----------------------------------------*/
    #main_section
    {
      background-color: #E3DEC1;
@@ -156,19 +161,21 @@ body  {
     box-shadow: 1px 1px 1px #E89F65;
    }
 
+/*--------------------------------------
+ users -> contents -> primary tutorials-> picture
+-----------------------------------------*/
     #picture {
-   margin-top: 10px;
-    height:150px!important;
-    
-   
-  }
-   #sidebar_image {
     margin-top: 10px;
     height:150px!important;
-    width:100%;
-   
+    }
+
+/*---------------------Primary tutorials Sidebar Style------------------------------*/
+
+/*--------------------------------------
+ users -> contents -> Primary tutorials Sidebar -> main div
+-----------------------------------------*/
+
   
-   }
 
   #side_bar
    {
@@ -181,7 +188,19 @@ body  {
     padding: 2px ;
     box-shadow: 1px 1px 1px #E89F65;
    }
-    #sub_section
+
+    #sidebar_image {
+    margin-top: 10px;
+    height:150px!important;
+    width:100%;
+  }
+/*---------------------Tutorials grid Style------------------------------*/
+
+/*--------------------------------------
+ users -> contents -> Tutorials grid -> sections
+-----------------------------------------*/
+
+#sub_section
 {
   margin: 10px 10px 10px 10px;
   border: 1px solid #B94629;
@@ -189,44 +208,62 @@ body  {
     background-color: #E3DEC1;
 }
 
+/*--------------------------------------
+ users -> contents -> Tutorials grid -> sections border
+-----------------------------------------*/
+
 #divborder
 {
    border-right: 1px solid #B94629;
  
 }
 
-}
-@media screen and (min-width : 768px) and (max-width : 1023px)
-{
+/*End of style for Screen Size 1024 or greator*/
 
 }
+
 
 
 @media screen and (min-width : 0px) and (max-width : 767px)  {
  
-  body  {
-    font-family: Comic Sans MS, cursive, sans-serif;
-    background-color: #DFE2DB;
-    color: #B94629;
+
+
+/*-----------
+  Main body  
+-----------*/
+
+body  {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  background-color: #DFE2DB;
+  color: #B94629;
   }
-  .header  {
-     width:100%;
-     height:45px;
-     background-color: #E3DEC1;
-     
-  } 
-  .header a {
-     font-size: 25px;
-     text-decoration: none !important;
-     margin-left : 15px;
-     color: #B94629;
-  }
-  .sub-header
+
+/*---------------------Navigation Style------------------------------*/
+
+/*---------------
+  Navigation Bar
+----------------*/
+
+  #nav
   {
-     width:100%;
-     background-color: #E3DEC1;
-     padding:5px;
+    
   }
+
+/*-----------------
+  Navigation Banner
+------------------*/
+
+  #banner
+  {
+
+  }
+
+/*---------------------Slider Style------------------------------*/
+
+/*--------------------------------------
+ users -> contents -> sliderMainDivFrame
+-----------------------------------------*/
+  
   #main_slider  {
     background-color: #E3DEC1;
     border-style: inset;
@@ -237,6 +274,10 @@ body  {
     padding: 2px ;
     box-shadow: 1px 1px 1px #E89F65;
   }
+
+/*--------------------------------------
+ users -> contents ->slider-> main_slider_heading 
+-----------------------------------------*/
 
   #main_slider_heading  {
     color: #B94629;
@@ -249,6 +290,10 @@ body  {
     text-align: center;
   }
 
+/*--------------------------------------
+ users -> contents -> slider-> main_slider_Picture
+-----------------------------------------*/
+
   #slider_picture {
     height:250px !important;
     min-width:100% !important;
@@ -257,7 +302,9 @@ body  {
     margin-bottom:10px;
   }
   
-  
+/*--------------------------------------
+ users -> contents -> slider-> main_slider_Button 
+-----------------------------------------*/
 
   #main_slider button  {
     color:white;
@@ -269,11 +316,120 @@ body  {
     margin-top: 10px;
     margin-right: auto;
   }
+  
+/*---------------------Quiz Style------------------------------*/ 
 
+/*--------------------------------------
+ users -> contents -> quiz-> main_quiz div
+-----------------------------------------*/
 
+  #main_quiz  {
+    background-color: #E3DEC1;
+    border-style: inset;
+    border-color: #E89F65;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px #E89F65;
+  }
+/*--------------------------------------
+ users -> contents -> quiz-> main_quiz heading
+-----------------------------------------*/
 
+  #main_quiz h1  {
+    color: #B94629;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    text-transform: none;   
+    text-align: center;
+  }
+/*--------------------------------------
+ users -> contents -> quiz-> main_quiz input and buttons
+-----------------------------------------*/
+   #main_quiz  input , #main_quiz  button
+   {
+    color:white;
+    background-color:#8b0000;
+    white-space: normal;
+    margin : 15px 0px 20px 20px;
+   }
 
+/*--------------------------------------
+ users -> contents -> quiz-> main_quiz buttons
+-----------------------------------------*/
+   #main_quiz #quizcontrolbutton button
+   {
+    margin : 20px 0px 20px 5px;
+   }
 
+/*---------------------Primary tutorials Style------------------------------*/ 
+
+/*--------------------------------------
+ users -> contents -> primary tutorials-> main div
+-----------------------------------------*/
+   #main_section
+   {
+    background-color: #E3DEC1;
+    border-style: inset;
+    border-color: #E89F65;
+    overflow: hidden;
+    margin : 10px 0px 20px 0px;
+    padding: 1px ;
+    box-shadow: 1px 1px 1px #E89F65;
+   }
+
+/*--------------------------------------
+ users -> contents -> primary tutorials-> picture
+-----------------------------------------*/
+    #picture {
+    margin-top: 10px;
+    }
+
+/*---------------------Primary tutorials Sidebar Style------------------------------*/
+
+/*--------------------------------------
+ users -> contents -> Primary tutorials Sidebar -> main div
+-----------------------------------------*/
+
+  
+
+  #side_bar
+   {
+    background-color: #E3DEC1;
+    border-style: inset;
+    font-size: 15px;
+    border-color: #E89F65;
+    overflow: hidden;
+    margin : 10px 0px 20px 0px;
+    padding: 2px ;
+    box-shadow: 1px 1px 1px #E89F65;
+   }
+
+    #sidebar_image {
+    margin-top: 10px;
+   }
+/*---------------------Tutorials grid Style------------------------------*/
+
+/*--------------------------------------
+ users -> contents -> Tutorials grid -> sections
+-----------------------------------------*/
+
+#sub_section
+{
+  margin: 10px 10px 10px 10px;
+  border: 1px solid #B94629;
+  background-color: #E3DEC1;
+}
+
+/*--------------------------------------
+ users -> contents -> Tutorials grid -> sections border
+-----------------------------------------*/
+
+#divborder
+{
+   border-right: 1px solid #B94629;
+ 
+}
+
+/*End of style for Screen Size 0 or 767*/
 
 
 }
